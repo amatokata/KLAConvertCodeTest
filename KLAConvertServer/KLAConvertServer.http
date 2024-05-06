@@ -1,0 +1,6 @@
+@KLAConvertServer_HostAddress = http://localhost:5197
+
+GET {{KLAConvertServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
