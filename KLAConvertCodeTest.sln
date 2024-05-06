@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLAConvertServer", "KLAConvertServer\KLAConvertServer.csproj", "{13A3F146-D531-4021-91A9-75A5151994AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLAConvertServer", "KLAConvertServer\KLAConvertServer.csproj", "{13A3F146-D531-4021-91A9-75A5151994AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KLAConvertClient", "KLAConvertClient\KLAConvertClient.csproj", "{B5A88F7A-91B6-4986-89A7-EB86DD6EC5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KLAConvertClient", "KLAConvertClient\KLAConvertClient.csproj", "{B5A88F7A-91B6-4986-89A7-EB86DD6EC5A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

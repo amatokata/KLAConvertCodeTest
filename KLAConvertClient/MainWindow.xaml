@@ -5,8 +5,38 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KLAConvertClient"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize">
+    <Window.FocusVisualStyle>
+        <Style/>
+    </Window.FocusVisualStyle>
     <Grid>
 
+
+
+        <Grid.FocusVisualStyle>
+            <Style/>
+        </Grid.FocusVisualStyle>
+
+        <StackPanel Background="#E7FFFD"/>
+        <Button x:Name="Convert" Content="CONVERT" HorizontalAlignment="Center" Margin="0,192,0,0" VerticalAlignment="Top" Height="25" Width="72" FontFamily="Cascadia Code" FontSize="15" Click="Button_Click"/>
+        <TextBox x:Name="UserInputBox" HorizontalAlignment="Center" Margin="0,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155" Height="20" TextChanged="UserInputBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="Currency Numeric to Word Converter" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold" FontSize="30"/>
+        <TextBox x:Name="OutputBox" HorizontalAlignment="Center" Margin="0,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" Height="76"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,94,0,0" TextWrapping="Wrap" Text="Enter in any monetary value in the textbox below, and press CONVERT to convert it into a string." VerticalAlignment="Top" FontFamily="Georgia" Foreground="#FFE01D1D"/>
+        <StackPanel>
+            <Image Source="/images/cat.jpg" Width="200" HorizontalAlignment="Left" Margin="45,150,0,0"/>
+
+            <Image Height="100" Width="100"/>
+
+        </StackPanel>
+        <StackPanel>
+
+            <TextBlock TextWrapping="Wrap" Text="Created by Austin He for KLA, 5/6/2024" FontFamily="Bahnschrift SemiLight" FontSize="10"/>
+
+            <Image Source="/images/dollar.jpg" Width="200" HorizontalAlignment="Right" Margin="0,150,50,0" Height="194"/>
+
+            <Image Height="100" Width="100"/>
+        </StackPanel>
     </Grid>
+
 </Window>
