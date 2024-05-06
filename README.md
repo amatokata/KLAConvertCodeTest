@@ -1,4 +1,4 @@
-###**An application which converts a currency (dollars) from numbers into words.**###
+### An application which converts a currency (dollars) from numbers into words.
 
 
 Uses .NET 8.0
